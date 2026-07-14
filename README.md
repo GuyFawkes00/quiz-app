@@ -27,14 +27,14 @@
 1. Клонируйте репозиторий и перейдите в папку проекта
 2. Запуск серверной части (Backend):
 Откройте терминал в папке server, установите зависимости и запустите сервер:
-   cd server
-   npm install
-   npm start
+   - cd server
+   - npm install
+   - npm start
 Сервер запустится на порту 3001
 3. Откройте новый терминал, перейдите в папку client, установите зависимости и запустите клиент:
-   cd client
-   npm install
-   npm run dev
+   - cd client
+   - npm install
+   - npm run dev
 Приложение откроется по адресу http://localhost:5173
 
 ### Проверка
@@ -45,7 +45,7 @@
 
 ### Структура проекта 
 
-client/ — исходный код фронтенда на React
-server/ — исходный код бэкенда на Node.js + Express
-.gitignore —  для Git
+- client/ — исходный код фронтенда на React
+- server/ — исходный код бэкенда на Node.js + Express
+- .gitignore —  для Git
    
